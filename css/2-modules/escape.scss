@@ -1,0 +1,62 @@
+#escape {
+  $base-border-radius: 3px !default;
+  $action-color: #477DCA !default;
+  $large-screen: em(860) !default;
+  $hero-background-top: #fff; 
+  $hero-background-bottom: #fff;
+  $hero-color: lightgray;
+  $gradient-angle: 10deg;
+  $hero-image: '../images/ESCAPE 3.png';
+  
+  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  background-color: #fff;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+
+  .hero-logo img {
+    margin-left: 10%;
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    padding: 10.5em;
+    // text-align: center;
+
+    .hero-copy {
+      // text-align: center;
+      
+      h1 {
+        color: $hero-color;
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+
+        @include media($large-screen) {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        float: left;
+        padding-left: 10%;
+        color: $hero-color;
+        line-height: 1.2em;
+        margin: 0 auto -10em auto; 
+        padding-bottom: 20%;
+        @include media($large-screen) {
+          font-size: 0.8em;
+          max-width: 60%;
+        }
+      }
+      a {
+        color: #FF6600;
+        text-decoration: none;
+      }
+    }
+  }
+}
