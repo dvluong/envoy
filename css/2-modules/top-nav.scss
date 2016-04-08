@@ -1,3 +1,19 @@
+.carousel-indicators li.active {
+    background: #ff0000 !important;
+    margin: 0 3px;
+    border: 0;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: dimgray !important;
+    border: 1px solid dimgray !important;
+    border-radius: 10px;
+}
 body {
   background-color: #0F0F0F !important;
 }

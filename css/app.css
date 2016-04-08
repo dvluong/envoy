@@ -144,6 +144,22 @@ textarea {
   -webkit-appearance: none; }
 
 /*# sourceMappingURL=normalize.min.css.map */
+.carousel-indicators li.active {
+  background: #ff0000 !important;
+  margin: 0 3px;
+  border: 0; }
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background: dimgray !important;
+  border: 1px solid dimgray !important;
+  border-radius: 10px; }
+
 body {
   background-color: #0F0F0F !important; }
 
@@ -862,7 +878,7 @@ a.carousel-control,
       content: "";
       display: table; }
     #django .hero-inner .hero-copy h1 {
-      color: lightgray;
+      color: dimgray;
       font-size: 1.6em;
       margin-bottom: 0.5em; }
       @media screen and (min-width: 53.75em) {
@@ -871,7 +887,7 @@ a.carousel-control,
     #django .hero-inner .hero-copy p {
       float: left;
       padding-right: 35px;
-      color: lightgray;
+      color: dimgray;
       line-height: 1.2em;
       margin: 0 auto -10em auto;
       padding-bottom: 20%; }
@@ -911,22 +927,22 @@ a.carousel-control,
       content: "";
       display: table; }
     #vizio .hero-inner .hero-copy h1 {
-      color: lightgray;
+      color: dimgray;
       font-size: 1.6em;
       margin-bottom: 0.5em; }
       @media screen and (min-width: 53.75em) {
         #vizio .hero-inner .hero-copy h1 {
           font-size: 1.8em; } }
     #vizio .hero-inner .hero-copy p {
-      padding-left: 270px;
-      color: lightgray;
+      padding-left: 280px;
+      color: dimgray;
       line-height: 1.2em;
       margin: 0 auto -10em auto;
       padding-bottom: 20%; }
       @media screen and (min-width: 53.75em) {
         #vizio .hero-inner .hero-copy p {
           font-size: 0.8em;
-          max-width: 60%; } }
+          max-width: 62%; } }
     #vizio .hero-inner .hero-copy a {
       color: #FF0000;
       text-decoration: none; }
@@ -958,7 +974,7 @@ a.carousel-control,
       content: "";
       display: table; }
     #escape .hero-inner .hero-copy h1 {
-      color: lightgray;
+      color: dimgray;
       font-size: 1.6em;
       margin-bottom: 0.5em; }
       @media screen and (min-width: 53.75em) {
@@ -967,7 +983,7 @@ a.carousel-control,
     #escape .hero-inner .hero-copy p {
       float: left;
       padding-left: 10%;
-      color: lightgray;
+      color: dimgray;
       line-height: 1.2em;
       margin: 0 auto -10em auto;
       padding-bottom: 20%; }
@@ -1006,7 +1022,7 @@ a.carousel-control,
       content: "";
       display: table; }
     #ultra .hero-inner .hero-copy h1 {
-      color: lightgray;
+      color: dimgray;
       font-size: 1.6em;
       margin-bottom: 0.5em; }
       @media screen and (min-width: 53.75em) {
@@ -1015,7 +1031,7 @@ a.carousel-control,
     #ultra .hero-inner .hero-copy p {
       float: left;
       padding-left: 20%;
-      color: lightgray;
+      color: dimgray;
       line-height: 1.2em;
       margin: 0 auto -10em auto;
       padding-bottom: 20%; }
